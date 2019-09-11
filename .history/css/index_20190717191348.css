@@ -1,0 +1,9 @@
+.banner_one img{
+    
+    width:7.5rem;
+    height:auto;
+    transition:all .5s linear
+}
+.active{
+    opacity: 1
+}

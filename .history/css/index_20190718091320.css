@@ -1,0 +1,14 @@
+.banner_one{
+    width:7.5rem;
+    height:auto;
+    position: relative;
+}
+.banner_one img{
+    display:none;
+    position: absolute;
+    top:0;
+    left:0
+}
+.active{
+    display:block
+}

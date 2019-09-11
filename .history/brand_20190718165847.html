@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/index.css">
+    <script src="http://cdn.bootcss.com/jquery/2.1.1/jquery.min.js"></script>
+    <script type="text/javascript" src="js/fontSize.js"></script>
+    <title>关于品牌</title>
+    <style>
+        .brand{
+            background: #000000;
+            height:100vh;
+        }    
+        .brand img{
+            width:100%;
+            height:auto;
+        }    
+    </style>
+</head>
+<body>
+    <div class="brand">
+        <img src="images/brand.jpg" alt="">
+    </div>
+</body>
+<script type="text/javascript" src="js/index.js"></script>
+<script>
+    var index = window.location.href.split('=')[1]
+    console.log(index)
+    var html = ''
+    if(index==1){
+        html = `<img src="images/brand.jpg" alt="">`
+    }else if(index==2){
+        html = `
+        <img src="images/cc/1.png" alt="">
+        <img src="images/cc/2.png" alt="">
+        <img src="images/cc/3.png" alt="">
+        <img src="images/cc/4.png" alt="">
+        `
+    }
+    $('.wid2').append(html)
+</script>
+</html>

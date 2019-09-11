@@ -1,0 +1,9 @@
+.banner_one img{
+    display: none;
+    width:7.5rem;
+    height:auto;
+    transition:all .5s linear
+}
+.active{
+    display: block
+}

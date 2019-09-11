@@ -1,0 +1,72 @@
+/*轮播图1*/
+.pic{
+    width: 7.5rem;
+    position: relative;
+    overflow: hidden;
+}
+.content{
+    width: 99999px;
+    position: absolute;
+    left: 0;
+    top: 0;
+
+}
+.content img{
+    width: 7.5rem;
+    float: left;
+}
+.height1{
+    height:8rem;
+}
+.wid_com{
+    width:7.5rem
+}
+
+.input_box{
+    background:#1d1d1d;
+    padding:0.6rem 0 0.4rem 0;
+}
+.input_box input{
+    width:6rem;
+    margin:0 auto;
+    height:0.8rem;
+    box-sizing:border-box;
+    text-align:center;
+    background:#fff;
+    margin-top:0.3rem;
+}
+.reason{
+    width:6rem;
+    margin:0 auto;
+}
+.reason span{
+    font-size:0.25rem;
+    color:#fff;
+    display: inline
+}
+.reason span span{
+    color:#f00;
+}
+input[type=checkbox]{
+    background-color:#1d1d1d!important;
+    margin:0;
+    width:0.5rem;
+    height:0.4rem;
+    -webkit-appearance:none;
+    border:0.01rem solid #fff;
+    margin-right:0.1rem;
+    color:#fff;
+}
+button{
+    background: #c59a6d;
+    display: block;
+    width:6rem;
+    margin:0 auto;
+    height:0.8rem;
+    box-sizing:border-box;
+    text-align:center;
+    margin-top:0.5rem;
+}
+.mt1{
+    margin-top:0.3rem;
+}

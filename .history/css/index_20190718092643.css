@@ -1,0 +1,18 @@
+.pic{
+    width: 7.5rem;
+    height: 7.8rem;
+    position: relative;
+    overflow: hidden;
+}
+.content{
+    width: 99999px;
+    height:7.8rem;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    border:1px solid red
+
+}
+.content img{
+    float: left;
+}

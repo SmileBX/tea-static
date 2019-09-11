@@ -1,0 +1,13 @@
+.banner_one{
+    width:7.5rem;
+    height:auto;
+}
+.banner_one img{
+    opacity:0;
+    position: absolute;
+    top:0;
+    left:0
+}
+.active{
+    opacity:1
+}

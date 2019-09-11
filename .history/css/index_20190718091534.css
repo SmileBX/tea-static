@@ -1,0 +1,10 @@
+.banner_one{
+    width:8.3rem;
+    height:auto;
+}
+.banner_one img{
+    display:none;
+}
+.active{
+    display:block
+}

@@ -1,0 +1,8 @@
+.banner_one img{
+    display: none;
+    width:7rem;
+    height:7.82rem;
+}
+.banner_one img:first-child{
+    display: block;
+}

@@ -1,0 +1,20 @@
+/*轮播图1*/
+.pic{
+    width: 7.5rem;
+    position: relative;
+    overflow: hidden;
+}
+.content{
+    width: 99999px;
+    position: absolute;
+    left: 0;
+    top: 0;
+
+}
+.content img{
+    width: 7.5rem;
+    float: left;
+}
+.height1{
+    height:7.8rem;
+}

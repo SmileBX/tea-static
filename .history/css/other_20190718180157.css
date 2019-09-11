@@ -1,0 +1,33 @@
+.bg_black{
+    background: #070707;
+    color:#fff;
+    height:6rem;
+    width:100%;
+    box-sizing: border-box;
+    padding:0.8rem 0.5rem 0.5rem 0.5rem;;
+}
+.text_center{
+    text-align:center;
+}
+.concat{
+    font-size:1.5rem;
+    background-image: -webkit-linear-gradient(bottom, rgb(201, 115, 255), rgb(20, 11, 255));
+    -webkit-background-clip: text;
+    webkit-text-fill-color: transparent;
+
+}
+.but_two span{
+    width:50%;
+    text-align: center
+}
+.but_two span:first-child{
+    color:#9b7745;
+    border:0.01rem solid #35372c
+}
+.but_two span:last-child{
+    background:#987646
+}
+
+.but_two,.phone,.com{
+    font-size:0.3rem;
+}   

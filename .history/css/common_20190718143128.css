@@ -1,0 +1,221 @@
+
+/*@tips:单位是用rem，以375为参照，100px=1rem;*/
+div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i, u,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-weight: normal;
+    font-size:100%;
+	text-decoration: none;
+    vertical-align:baseline;
+    background:transparent;
+}
+body { 
+	font-family: "SimHei",tahoma,arial,Hiragino Sans GB;
+}
+
+article,aside,canvas,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section,summary { 
+    display:block;
+}
+
+ul,
+ul li ,ol{
+    list-style:none;
+}
+*{
+  margin:0;
+  padding:0;
+}
+a {
+    margin:0;
+    padding:0;
+    border:0;
+    color: #1a1a1a;
+    font-size:100%;
+	text-decoration:none;
+    vertical-align:baseline;
+    background:transparent;
+}
+*{
+  -webkit-box-sizing:border-box;
+  -moz-box-sizing:border-box;
+  -ms-box-sizing:border-box;
+  box-sizing:border-box;
+}
+input,select,textarea {
+  border: 0;
+  outline: none;
+  outline: none;
+  border-radius: 0;
+  background: none;  
+  appearance: none;
+  -ms-appearance: none;
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  display: block;
+  width:100%;
+}
+input[type=submit],
+input[type=button],button {
+  border: 0;
+  outline: none;
+  background: none;
+  appearance: none;
+  -ms-appearance: none;
+  -moz-appearance: none;
+  -webkit-appearance: none;
+}
+input[type=checkbox] {
+  appearance: checkbox;
+  -ms-appearance: checkbox;
+  -moz-appearance: checkbox;
+  -webkit-appearance: checkbox;
+}
+input[type=radio] {
+  appearance: radio;
+  -ms-appearance: radio;
+  -moz-appearance: radio;
+  -webkit-appearance: radio;
+}
+::-webkit-input-placeholder {
+    color: #b1b1b1;
+}
+a,
+input {
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+em,i {
+  font-style: normal;
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+  table-layout: fixed;
+}
+.line-through{
+	text-decoration: line-through;
+}
+
+
+/*弹性布局常用*/
+.flex {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+}
+.flexColumn {
+    flex-flow: column !important;
+}
+
+.flexAlignCenter {
+    -webkit-box-align: center !important;
+    -webkit-align-items: center !important;
+    -moz-align-items: center !important;
+    -ms-align-items: center !important;
+    -o-align-items: center !important;
+    align-items: center !important;
+}
+
+.flexAlignBaseline {
+    -webkit-box-align: baseline !important;
+    -webkit-align-items: baseline !important;
+    -moz-align-items: baseline !important;
+    -ms-align-items: baseline !important;
+    -o-align-items: baseline !important;
+    align-items: baseline !important;
+}
+
+.flexAlignStart {
+    -webkit-box-align: flex-start !important;
+    -webkit-align-items: flex-start !important;
+    -moz-align-items: flex-start !important;
+    -ms-align-items: flex-start !important;
+    -o-align-items: flex-start !important;
+    align-items: flex-start !important;
+}
+
+.flexAlignEnd {
+    -webkit-box-align: flex-end !important;
+    -webkit-align-items: flex-end !important;
+    -moz-align-items: flex-end !important;
+    -ms-align-items: flex-end !important;
+    -o-align-items: flex-end !important;
+    align-items: flex-end !important;
+}
+
+.justifyContentEnd {
+    -webkit-justify-content: flex-end !important;
+    -moz-justify-content: flex-end !important;
+    -o-justify-content: flex-end !important;
+    -ms-justify-content: flex-end !important;
+    justify-content: flex-end !important;
+}
+
+.justifyContentStart {
+    -webkit-justify-content: flex-start !important;
+    -moz-justify-content: flex-start !important;
+    -o-justify-content: flex-start !important;
+    -ms-justify-content: flex-start !important;
+    justify-content: flex-start !important;
+}
+
+.justifyContentCenter {
+    -webkit-justify-content: center !important;
+    -moz-justify-content: center !important;
+    -o-justify-content: center !important;
+    -ms-justify-content: center !important;
+    justify-content: center !important;
+}
+
+.justifyContentBetween {
+    justify-content: space-between;
+    -webkit-justify-content: space-between;
+    -moz-justify-content: space-between;
+    -o-justify-content: space-between;
+    -ms-justify-content: space-between;
+}
+
+.justifyContentAround {
+    justify-content: space-around;
+    -webkit-justify-content: space-around;
+    -moz-justify-content: space-around;
+    -o-justify-content: space-around;
+    -ms-justify-content: space-around;
+}
+
+.alignContentCenter {
+    align-content: center;
+    -webkit-align-content: center;
+    -moz-align-content: center;
+    -ms-align-content: center;
+    -o-align-content: center;
+}
+/*字体*/
+.font_blod{
+    font-weight:bold
+}
+.m1{
+    margin:0 auto
+}
+.bg_fff{
+    background:#fff
+}
+.co_ff{
+    color:#fff
+}

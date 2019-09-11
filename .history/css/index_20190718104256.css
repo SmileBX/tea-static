@@ -1,0 +1,96 @@
+/*轮播图1*/
+.pic{
+    width: 7.5rem;
+    position: relative;
+    overflow: hidden;
+}
+.content{
+    width: 99999px;
+    position: absolute;
+    left: 0;
+    top: 0;
+
+}
+.content img{
+    width: 7.5rem;
+    float: left;
+}
+.height1{
+    height:8rem;
+}
+.wid_com{
+    width:7.5rem
+}
+
+.input_box{
+    background:#1d1d1d;
+    padding:0.6rem 0 0.4rem 0;
+}
+.input_box input{
+    width:6rem;
+    margin:0 auto;
+    height:0.8rem;
+    box-sizing:border-box;
+    text-align:center;
+    background:#fff;
+    margin-top:0.3rem;
+}
+.reason{
+    width:6rem;
+    margin:0 auto;
+}
+.reason span{
+    font-size:0.25rem;
+    color:#fff;
+    display: inline
+}
+.reason span span{
+    color:#f00;
+}
+input[type="checkbox"]{
+    -webkit-appearance: none;
+    vertical-align:middle;
+    margin-top:0;
+    background:#fff;
+    border:#999 solid 1px;
+    border-radius: 3px;
+    min-height: 12px;
+    min-width: 12px;
+}
+input[type="checkbox"]:checked {
+    background: #3190e8;
+}
+input[type=checkbox]:checked::after{
+    content: '';
+    top: 3px;
+    left: 3px;
+    position: absolute;
+    background: transparent;
+    border: #fff solid 2px;
+    border-top: none;
+    border-right: none;
+    height: 6px;
+    width: 10px;
+    -moz-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg); 
+    transform: rotate(-45deg);
+}
+--------------------- 
+作者：qq_27717857 
+来源：CSDN 
+原文：https://blog.csdn.net/qq_27717857/article/details/80684375 
+版权声明：本文为博主原创文章，转载请附上博文链接！
+button{
+    background: #c59a6d;
+    display: block;
+    width:6rem;
+    margin:0 auto;
+    height:0.8rem;
+    box-sizing:border-box;
+    text-align:center;
+    margin-top:0.5rem;
+}
+.mt1{
+    margin-top:0.3rem;
+}

@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/index.css">
+    <script src="http://cdn.bootcss.com/jquery/2.1.1/jquery.min.js"></script>
+    <script type="text/javascript" src="js/fontSize.js"></script>
+    <title>无线官网</title>
+    <style>
+        img{
+            width:7.1rem;
+            height:auto;
+        }
+        .wid2{
+            margin:0 auto;
+        }
+    </style>
+</head>
+<body>
+    <!--初级品茗-->
+    <div class="first">
+        <!--轮播图-->
+        <div class="wid2">
+            <!-- <div class="">
+                <img src="images/ss/1.png" alt="">
+                <img src="images/ss/2.png" alt="">
+                <img src="images/ss/3.png" alt="">
+                <img src="images/ss/4.png" alt="">
+            </div> -->
+        </div>
+    </div>
+    
+</body>
+<script type="text/javascript" src="js/index.js"></script>
+<script>
+    var index = window.location.href.split('=')[1]
+    console.log(index)
+    var html = ''
+    if(index==1){
+        html = `<div class="">
+                <img src="images/ss/1.png" alt="">
+                <img src="images/ss/2.png" alt="">
+                <img src="images/ss/3.png" alt="">
+                <img src="images/ss/4.png" alt="">
+            </div>`
+    }else if(index==2){
+        html = `<div class="">
+                <img src="images/zp/1.png" alt="">
+                <img src="images/zp/2.png" alt="">
+                <img src="images/zp/3.png" alt="">
+                <img src="images/zp/4.png" alt="">
+            </div>`
+    }else if(index==3){
+        html = `<div class="">
+                <img src="images/cg/1.png" alt="">
+                <img src="images/cg/2.png" alt="">
+                <img src="images/cg/3.png" alt="">
+                <img src="images/cg/4.png" alt="">
+            </div>`
+    }else if(index==4){
+        html = `<div class="">
+                <img src="images/jc/1.png" alt="">
+                <img src="images/jc/2.png" alt="">
+                <img src="images/jc/3.png" alt="">
+                <img src="images/jc/4.png" alt="">
+            </div>`
+    }else if(index==5){
+        html = `<div class="">
+                <img src="images/fz/1.png" alt="">
+                <img src="images/fz/2.png" alt="">
+                <img src="images/fz/3.png" alt="">
+                <img src="images/fz/4.png" alt="">
+            </div>`
+    }else if(index==6){
+        html = `<div class="">
+                <img src="images/lz/1.png" alt="">
+                <img src="images/lz/2.png" alt="">
+                <img src="images/lz/3.png" alt="">
+                <img src="images/lz/4.png" alt="">
+            </div>`
+    }else if(index==7){
+        html = `<div class="">
+                <img src="images/jj/1.png" alt="">
+                <img src="images/jj/2.png" alt="">
+                <img src="images/jj/3.png" alt="">
+                <img src="images/jj/4.png" alt="">
+            </div>`
+    }else if(index==8){
+        html = `<div class="">
+                <img src="images/tj/1.png" alt="">
+                <img src="images/tj/2.png" alt="">
+                <img src="images/tj/3.png" alt="">
+                <img src="images/tj/4.png" alt="">
+            </div>`
+    }
+    $('.wid2').append(html)
+   
+</script>
+</html>

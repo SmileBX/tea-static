@@ -1,0 +1,6 @@
+.banner_one img{
+    display: none;
+}
+.banner_one img:first-child{
+    display: block;
+}
